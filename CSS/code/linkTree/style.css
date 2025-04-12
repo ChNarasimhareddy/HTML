@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    background:radial-gradient(rgb(141, 74, 74),rgb(61, 58, 57))
+
+}
+#main{
+    max-width: 1280px;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.name{
+    border-radius: 100%;
+    margin: 10px;
+}
+.name{
+    font-size:large;
+    margin: 5px;
+}
+#name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    color: rgb(218, 218, 113);
+}
+.icons{
+    margin: 10px;
+}
+.icon{
+    color: rgba(22, 19, 19, 0.979);
+    margin: 0px 10px;
+    font-size: 28px;
+}
+.course{
+    background-color: rgb(185, 181, 181);
+    border: 1px solid black;
+    padding: 20px 50px;
+    max-width: max-content;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+a{
+    text-decoration:wavy;
+}
+.courseimage{
+    border-radius: 50%;
+}
+.courseTitle{
+    color: rgb(2, 20, 23);
+    font-size: 28px;
+    margin: 0px 10px;
+}
+
+
+
+
+
+

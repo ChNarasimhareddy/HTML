@@ -1,0 +1,23 @@
+.box{
+    height: 100%;
+    width: 100px;
+    animation-name: stars moving;
+    animation-duration: 5sec ease;
+   
+}
+img{
+    object-fit: cover;
+    animation: stars moving 5sec ease infinite alternate;
+}
+.box:hover{
+    
+}
+p::before{
+    color: blueviolet;
+}
+p::after{
+    color: brown;
+
+}
+
+ 

@@ -1,0 +1,30 @@
+body{
+    display:flex;
+    height: 100vh;
+    
+}
+#main{
+    height: 100px;
+    width: 100px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+  /* border: 1px solid red;*/
+    
+}
+.child{
+    height: 100px;
+    width: 100px;
+    /*border: 1px solid green;*/
+    
+}
+.child1>image{
+    object-fit:contain;
+    
+}
+.child1:hover{
+    transform: scale(1.5);
+}
+.child2:hover{
+transition: transform(1.0s ease);
+}

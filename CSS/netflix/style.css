@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    background-image: url(https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg);
+    color: white;
+    font-family: arial,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#container{
+    width: 30px;
+    padding: 20px;
+    background-color:#141414;
+    border-radius: 5px;
+}
+#head{
+    text-align:left ;
+}
+input{
+    width: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    background:#333;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background: red;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.alt-option{
+    text-align: center;
+    margin: 10px 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
