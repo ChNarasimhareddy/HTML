@@ -10,7 +10,7 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(10, 9, 9);
-    animation-name: typing;
+    
 }
 header img{
     height: 70px;
@@ -47,9 +47,6 @@ section{
 .bannerleft h1 span{
     color: rgb(85, 212, 170);
 }
-@keyframes typing{
-   
-}
 .bannerleft p{
     font-size: 28px;
 }
@@ -85,7 +82,7 @@ gap: 10px;
 #about{
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 20px;
 }
 #about>img{
     clip-path:circle(150px);
