@@ -14,7 +14,16 @@ const gallantry_awards =[
        award:"Ashoka Chakra (Posthumous)",
        imageLink:"https://pbs.twimg.com/media/FJ-KE6wVcAEsx98.jpg:large",
        year:" 26-01-2009",
+    },
+    {
+      name:"  SANJAY KUMAR",
+      rank:"Subedar Major (Then Rifleman)",
+      service:"Indian Army",
+      award:"Param Vir Chakra",
+      imageLink:"https://gallantryawards.gov.in/assets/uploads/styles/awardee_img/public/sites/default/files/Currentprofilephoto-2022-06-20-0101-0606.jpg",
+      year:"04 July 1999"
     }
+
 
 
 ]
@@ -35,7 +44,7 @@ const gallantry_awards =[
        gallantry_awardsyear.textContent=v.year;
        const gallantry_awardsimageLink=document.createElement("img")
        gallantry_awardsimageLink.src=v.imageLink;
-       gallantry_awardsimageLink.alt="v.name";
+       gallantry_awardsimageLink.alt="";
        gallantry_awardsimageLink.height=200
        gallantry_awardsDiv.append(gallantry_awardsimageLink,gallantry_awardsname,gallantry_awardsrank,gallantry_awardsservice,gallantry_awardsaward,gallantry_awardsyear,)
        document.getElementById('main').append(gallantry_awardsDiv);
@@ -63,7 +72,7 @@ const gallantry_awards =[
 
 
 
-//   name:"",
+//         name:"",
 //        rank:"",
 //        service:"",
 //        award:"",
