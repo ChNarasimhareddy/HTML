@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn.pixabay.com/video/2024/07/06/219754_tiny.jpg");
+    
+}
+#main{
+    height: 50vh;
+    max-height: 70vh;
+    overflow-x: scroll;
+    width: 50vw;
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: 10px 15px 25px  lightskyblue;
+    background-color: whitesmoke;
+    font-family:monospace;
+
+}
+#inp{
+    border: 5px solid whitesmoke;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+#inp:hover{
+    background-color: black;
+    color: white;
+}

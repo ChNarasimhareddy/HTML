@@ -1,0 +1,22 @@
+advanced 
+---------
+events,types of events ,
+async javascript(ajax)
+     --- timers,event loop,call stack,task que
+     ---API,promise,fetch
+     ---libraries
+     ---BOM
+     ---ES6(OOP,Modules)
+     ---prototype inheritence, event propgation & delegation
+     ---Design patterns
+
+    LIBRARIES :
+    ---------
+     Library is a predefined code (or) prewritten code for specific purpose.
+     library contains a package of methods or patters that makes development easy .
+
+     Instead of developing everything on our own , sometimes ,it is better to use third party libraries.
+
+     Every library needs to be installed by npm ( node package manger) or link using cdn( content delivery network)
+
+     i. JQuery : Jquery is used specifically for DOM manipulations

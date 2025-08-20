@@ -7,20 +7,27 @@ function fetchData()
 
 }
 fetchData();
-function displayData(randomuser)
+function displayData(persons)
 {
-    const resultUser=user.results[0];
-   const gender=document.createElement('h2')
-   const name=document.createElement('h2')
-   name.textContent=`${user.name.title} ${user.name.first} ${user.name.last}`;
-   const email=document.createElement('p');
-   email.textContent=`email:${user.email}`;
-   const location=document.createElement('p');
-   location.textContent=`location:${user.location.city}, ${user.location.country}`;
-   const profilePic=document.createElement('img')
-   profilePic.src=user.picture.large;
-   profilePic.alt= 'userimage';
-   document.getElementById('main').append(resultUser,gender,name,email,location,profilePic)
+    const maindiv=document.getElementById('main')
+    maindiv.textContent=''
+   const persons=persons.results(0)
+
+   const image=document.createElement('img')
+   image.src=person.picture.large
+
+   const dob=document.createElement('p')
+   dob.textContent=`Date Of Birth: ${date(person.dob.date).toDateString()}`
+
+   const gender=document.createElement('p')
+   gender.textContent=person.gender
+
+   const Email=document.createElement('p')
+   Email.textContent=`email:${person.Email}`
+
+   const ages=document.createElement('p')
+   ages.textContent=`Age:${person.dob.age}`
+   document.getElementById('main').append(image,dob,gender,Email,ages)
 }
 
 
